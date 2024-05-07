@@ -1,0 +1,17 @@
+- When refactoring or changing code, do not remove comments or documentation and only change the parts that are required
+- When writing code, only refer to functions and classes you know exist at the time of writing
+
+# Code style
+- Always follow the same code style as the adjacent code & codebase
+- Use single quotes over double quotes
+
+# Typescript
+- Always write separate typings for complex parameters
+- When documenting types etc. always document every prop separately
+
+# React
+- For React, always use functional React
+
+# Next.js
+- For Next.js projects, always use app router
+- Add 'use client' when using components that only work on client side, such as useState
